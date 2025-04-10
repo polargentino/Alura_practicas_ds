@@ -1,0 +1,55 @@
+# Archivos del entorno virtual
+venv/
+.venv/
+env/
+Scripts/
+Lib/
+lib64/
+pyvenv.cfg
+
+# Archivos de Python generados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info
+dist/
+build/
+sdist/
+wheelhouse/
+*.whl
+MANIFEST
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Archivos de Visual Studio Code
+.vscode/
+*.code-workspace
+*.log
+
+# Archivos de sistema operativo y editores
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.viminfo
+.history
+*.tmp
+*.bak
+*.orig
+*.py~
+
+# Archivos de datos (si son grandes y no quieres versionarlos)
+# data/
+# *.csv
+# *.xlsx
+# *.db
+
+# Archivos de configuración (si los manejas de otra manera)
+# config.ini
+# secrets.json
+
+# Otros archivos o directorios específicos de tu proyecto que no quieras versionar
+# ejemplo_archivo_temporal.txt
+# carpeta_de_reportes/
